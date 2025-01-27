@@ -56,6 +56,6 @@ app.get('/search',(req,res)=>{
     res.send(tempArr)
 })
 
-app.listen(5000,()=>{
+app.listen('https://info-server-9d54.onrender.com',()=>{
     console.log("Server Started")
 })
